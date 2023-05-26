@@ -11,9 +11,14 @@ ul {
     justify-content: center;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: monospace;
     text-align: center;
+}
+
+h3 {
+    font-size: 27px;
+    text-decoration: underline;
 }
 
 h2 {
@@ -21,9 +26,21 @@ h2 {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 80px;
     color: darkgoldenrod;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 70px yellow;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px khaki, 0 0 40px khaki, 0 0 50px khaki, 0 0 60px khaki, 0 0 70px khaki, 0 0 80px khaki;
+    }
+  }
 
 .add {
     height: 40px;

@@ -3,7 +3,7 @@ import './styles.css';
 
 function App() {
 
-    let array = ["Do dishes"];
+    let array = ["Buy bananas"];
 
     function addItem(){
         let x = document.getElementById("arrayList");
@@ -20,7 +20,7 @@ function App() {
             <input className="submit" type="button" onClick={addItem} value="Add Item"/>          
         </form>
 
-        <h2 id="list-heading">List of Tasks</h2>
+        <h3 id="list-heading">List of Tasks</h3>
         <ul
           role="list"
           aria-labelledby="list-heading">
