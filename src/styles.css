@@ -1,0 +1,55 @@
+body {
+    background-image: url(paper.jpeg);
+}
+
+ul {
+    list-style-type: circle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-family: monospace;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 50px;
+    color: darkgoldenrod;
+}
+
+.add {
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: lightyellow;
+    color: darkgoldenrod;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.submit {
+    height: 45px;
+    width: 65px;
+    border: 2px solid black;
+    background-color: lightyellow;
+    color: darkgoldenrod;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: block;
+}
+
+.pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15%;
+    margin-top: 30px;
+}
